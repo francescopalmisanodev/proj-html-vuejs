@@ -65,8 +65,12 @@
         <div>
           <img src="./images/home-6-hero-left-person-244x300.png" alt="">
           <img src="./images/home-6-hero-poster-final.jpg" alt="">
+          <!-- remeber to add playbutton and shift the img -->
           <img src="./images/home-6-hero-right-person-195x300.png" alt="">
         </div>
+        <aside>
+
+        </aside>
       </section>
     </main>
     <footer>
@@ -104,9 +108,21 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
   .btn-green{
     background-color:$mountainMeadow;
     color:white;
+  }
+  aside{
+    position: absolute;
+    top:30%;
+    right:0;
+    background-color:white;
+    width: 40px;
+    height: 150px;
+    border-top-left-radius:8px;
+    border-bottom-left-radius:8px;
+    transform: translate(0, -50%);
   }
 }
 </style>
